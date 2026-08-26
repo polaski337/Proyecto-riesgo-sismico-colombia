@@ -9,7 +9,9 @@ import pydeck as pdk
 import streamlit as st
 
 
-BASE_DIR = Path(__file__).resolve().parents[1]
+BASE_DIR = Path(__file__).resolve().parent
+if not (BASE_DIR / "Publicacion_Web").exists():
+    BASE_DIR = Path(__file__).resolve().parents[1]
 GEOJSON_DIR = BASE_DIR / "Publicacion_Web" / "GeoJSON"
 CSV_DIR = BASE_DIR / "Publicacion_Web" / "CSV_Dashboard"
 

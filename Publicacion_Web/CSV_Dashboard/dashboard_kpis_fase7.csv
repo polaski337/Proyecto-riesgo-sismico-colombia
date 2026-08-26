@@ -1,0 +1,10 @@
+indicador,valor,unidad,fuente
+Total eventos sismicos analizados,16290,eventos,web_sismos
+Magnitud maxima registrada,8.45,Mw/escala reportada,web_sismos
+Anio evento magnitud maxima,1906,anio,web_sismos
+Departamentos con eventos asignados,31,departamentos,f4_eventos_por_departamento.csv
+Municipios en amenaza alta,543,municipios,f4_municipios_por_nivel_amenaza.csv
+IPS potencialmente expuestas en amenaza alta,7628,IPS,web_ips_amenaza_alta
+Sedes educativas potencialmente expuestas en amenaza alta,25224,sedes,web_sedes_educativas_amenaza_alta
+Red vial potencialmente expuesta en amenaza alta,11000.56,km,f4_red_vial_km_por_amenaza_depto.csv
+Periodo del catalogo descargado,1610-2020,anios,web_sismos
