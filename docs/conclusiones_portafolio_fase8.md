@@ -1,10 +1,9 @@
-# Fase 8 - Analisis de resultados y conclusiones para portafolio
+Analisis de resultados y conclusiones para portafolio
 
 Fecha: 2026-08-24
 
-## Titulo sugerido
+## Analisis espacial del riesgo y la exposicion sismica en Colombia
 
-**Analisis espacial del riesgo y la exposicion sismica en Colombia**
 
 ## Resumen ejecutivo
 
@@ -143,13 +142,13 @@ Esta priorizacion es exploratoria y no debe presentarse como ranking oficial de 
 - Exposicion no equivale a afectacion, dano o perdida economica.
 - La proximidad a fallas no prueba causalidad sismotectonica.
 
-## Texto corto para portafolio
+## Resumen informativo
 
 Proyecto geoespacial desarrollado en ArcGIS Pro, ArcPy y Streamlit para analizar la amenaza sismica, la sismicidad historica y la infraestructura potencialmente expuesta en Colombia. El flujo integra datos oficiales del SGC, DANE, SISPRO/MinSalud e INVIAS, construye una geodatabase reproducible, ejecuta analisis espaciales por departamento y municipio, y publica resultados en un dashboard interactivo. El producto diferencia tecnicamente amenaza, exposicion, vulnerabilidad y riesgo, evitando presentar indicadores exploratorios como riesgo oficial.
 
-## Texto metodologico para portafolio
+## Metodología
 
-El proyecto siguio un flujo reproducible en ocho fases: busqueda y verificacion de fuentes oficiales, descarga de datos, construccion de geodatabase, normalizacion de capas, analisis espacial, diseno cartografico, preparacion para publicacion web y desarrollo de dashboard. Las operaciones principales incluyeron `Spatial Join`, `Statistics`, `Intersect`, `Near`, conversion de geometria, simplificacion para publicacion web y diseno de indicadores. El dashboard permite filtrar por ano, departamento, magnitud y nivel de amenaza.
+El proyecto siguio un flujo reproducible en ocho fases: busqueda y verificacion de fuentes oficiales, descarga de datos, construccion de geodatabase, normalizacion de capas, analisis espacial, diseno cartografico, preparacion para publicacion web y desarrollo de dashboard. Las operaciones principales incluyeron `Spatial Join`, `Statistics`, `Intersect`, `Near`, conversion de geometria, simplificacion para publicacion web y diseno de indicadores. El dashboard permite filtrar por año, departamento, magnitud y nivel de amenaza.
 
 ## Conclusiones finales
 
