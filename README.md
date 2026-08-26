@@ -9,6 +9,7 @@ Dashboard interactivo desarrollado en Streamlit para visualizar sismicidad hist�
 - Indicadores principales
 - Gráficos de eventos por año, magnitud y departamento
 - Análisis exploratorio de exposición sísmica
+- Conclusiones técnicas para portafolio profesional
 
 ## Fuentes de datos
 
@@ -16,6 +17,14 @@ Dashboard interactivo desarrollado en Streamlit para visualizar sismicidad hist�
 - DANE
 - SISPRO / Ministerio de Salud
 - INVIAS
+
+## Dashboard publicado
+
+[Abrir dashboard en Streamlit Cloud](https://riesgo-sismico-colombia.streamlit.app/)
+
+## Documentación del proyecto
+
+- [Conclusiones técnicas y texto para portafolio](docs/conclusiones_portafolio_fase8.md)
 
 ## Nota metodológica
 
